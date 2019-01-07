@@ -8,6 +8,12 @@
 - ffmpeg下载地址：https://ffmpeg.org/releases/ffmpeg-4.0.3.tar.bz2， 在https://ffmpeg.org/releases可以看到所有的发部包下载地址。
 - 基于ffplay.c构建播放器
 
+
+## visual studio 已经编译好的版本
+在https://ffmpeg.zeranoe.com/builds/提供了windows下面所有已经编译好的库,每个发布版本都有，有需要，可以自行下载。
+- windows 32位版本 https://ffmpeg.zeranoe.com/builds/win32/
+- windows 64位版本 https://ffmpeg.zeranoe.com/builds/win64/
+
 ## FFMpeg 4.0的特性
 更多特性说明：https://ffmpeg.org/index.html#news
 
