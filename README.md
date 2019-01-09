@@ -52,7 +52,7 @@
 - 复制一个**C:/MinGW/msys/1.0/msys.bat**为**C:/MinGW/msys/1.0/msys_vs2017.bat**
 - 编辑msys_vs2017.bat，并在第一行的@echo off的后面，增加下面一条语句（注意：这里的vs2017是默认安装的）
 ```bat
-call C:/program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Enterprise/VC/Auxiliary/Build/vcvars32.bat
+call "C:/program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Auxiliary/Build/vcvars32.bat"
 ```
 - 完成后，如下：
 ```bat
@@ -79,7 +79,7 @@ cd c:/ffmpeg4.0.3
 ```
 - 进入代码目录后，就可以用configure生成所需的头文件和makefile了
 ```bash
-$ ./configure --enable-asm --enable-yasm --disable-ffserver --disable-avdevice --disable-doc --disable-ffplay --disable-ffprobe --disable-ffmpeg --enable-shared --disable-static --disable-bzlib --disable-libopenjpeg --disable-iconv --disable-zlib --prefix=./vs2017_build --toolchain=msvc --arch=x86 --extra-cflags="-MDd" --extra-ldflags="/NODEFAULTLIB:libcmt" --enable-debug
+$ ./configure --enable-asm --enable-yasm --disable-avdevice --disable-doc --disable-ffplay --disable-ffprobe --disable-ffmpeg --enable-shared --disable-static --disable-bzlib --disable-libopenjpeg --disable-iconv --disable-zlib --prefix=./vs2017_build --toolchain=msvc --arch=x86 --extra-cflags="-MDd" --extra-ldflags="/NODEFAULTLIB:libcmt" --enable-debug
 $ make -j4  #我这里是4核的CPU，所以用-j4，如果是双核的则-j2，八核的则-j8
 $ make install
 # 如果要修改配置选项，请用 ./configure --help查找编译选项
