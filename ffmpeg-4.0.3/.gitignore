@@ -1,2 +1,11 @@
-vs2017_build
 vs2017sample
+*.o
+*.d
+*.def
+*.dll
+*.exp
+*.ver
+*.ilk
+*.pdb
+*.version
+*.pc

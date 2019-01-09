@@ -30,3 +30,9 @@ ffmpeg-4.0.3/libavformat/protocol_list.c
 ffmpeg-4.0.3/libavutil/avconfig.h
 ffmpeg-4.0.3/libavutil/ffversion.h
 ffmpeg-4.0.3/test.obj
+ffmpeg-4.0.3/libavcodec/avcodec.lib
+ffmpeg-4.0.3/libavfilter/avfilter.lib
+ffmpeg-4.0.3/libavformat/avformat.lib
+ffmpeg-4.0.3/libavutil/avutil.lib
+ffmpeg-4.0.3/libswresample/swresample.lib
+ffmpeg-4.0.3/libswscale/swscale.lib
