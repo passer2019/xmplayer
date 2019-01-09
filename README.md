@@ -15,30 +15,30 @@
 - 下载完成后安装，请按下列图操作，即可。(我这里默认是发装到C:\MinGW目录）
 - **注意：请不要出现中文目录，可能会有想不到的问题**
 
-![1](pic\1.png)
+![1](pic/1.png)
 
-![2](pic\2.png)
+![2](pic/2.png)
 
-![3](pic\3.png)
+![3](pic/3.png)
 
-![4](pic\4.png)
+![4](pic/4.png)
 
-![5](pic\5.png)
+![5](pic/5.png)
 
-![6](pic\6.png)
+![6](pic/6.png)
 
-![7](pic\7.png)
+![7](pic/7.png)
 
-![8](pic\8.png)
+![8](pic/8.png)
 
-![9](pic\9.png)
+![9](pic/9.png)
 
 然后等它他安装完成。
 ### 下载yasm
 - 下载yasm.exe，下载地址： http://yasm.tortall.net/ ；我这里只下载了32位版本了。
 - 具体地址：http://yasm.tortall.net/Download.html
 
-![a1](pic\a1.png)
+![a1](pic/a1.png)
 
 - 我这里下载的是 http://www.tortall.net/projects/yasm/releases/yasm-1.3.0-win32.exe， 下载完成后，改名为yasm.exe，并复制到**C:\MinGW\msys\1.0\bin**目录下。
 
@@ -86,19 +86,19 @@ $ make install
 ```
 - 完成后，在./vs2017_build如下：
 
-![a2](pic\a2.png)
+![a2](pic/a2.png)
 
 - 到这里，就完成了，所有需要的头文件和库了
 
 ## 创建vs2017的工程
 
 ### 创建工程
-![a3](pic\a3.png)
+![a3](pic/a3.png)
 
 并新建一个文件main.cpp
-![a4](pic\a4.png)
+![a4](pic/a4.png)
 
-![a5](pic\a5.png)
+![a5](pic/a5.png)
 ```c++
 #include <stdio.h>
 int main(int argc, char * argv[]) {
@@ -109,19 +109,19 @@ int main(int argc, char * argv[]) {
 
 ### 增加依赖头文件
 c:\ffmpeg-4.0.3\vs2017_build\include （视实际情况变化）
-![a6](pic\a6.png)
-![a7](pic\a7.png)
-![a8](pic\a8.png)
+![a6](pic/a6.png)
+![a7](pic/a7.png)
+![a8](pic/a8.png)
 
 ### 增加库文件目录
 c:\ffmpeg-4.0.3\vs2017_build\lib（视实际情况变化）
-![a9](pic\a9.png)
-![aa](pic\aa.png)
+![a9](pic/a9.png)
+![aa](pic/aa.png)
 
 ### 增加库文件
 依赖的库：libavcodec.a;libavdevice.a;libavfilter.a;libavformat.a;libavutil.a;libswresample.a;libswscale.a
-![ab](pic\ab.png)
-![ac](pic\ac.png)
+![ab](pic/ab.png)
+![ac](pic/ac.png)
 
 
 ### 修改main.cpp如下
@@ -140,10 +140,10 @@ int main(int argc, char * argv[]) {
 ```
 ### LNK2019 错误
 - 如下图所示，这个是缺少依赖库造成的，
-![ad](pic\ad.png)
+![ad](pic/ad.png)
 - 主要是缺少Bcrypt.lib，Ws2_32.lib，Secur32.lib这三个库
-![af](pic\af.png)
-![ae](pic\ae.png)
+![af](pic/af.png)
+![ae](pic/ae.png)
 
 - 最后
 ========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
