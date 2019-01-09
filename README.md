@@ -57,7 +57,7 @@ call "C:/program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Auxiliar
 - 完成后，如下：
 ```bat
 @echo off
-call C:/program\ Files\ (x86)/Microsoft\ Visual\ Studio/2017/Enterprise/VC/Auxiliary/Build/vcvars32.bat
+call "C:/program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Auxiliary/Build/vcvars32.bat"
 
 rem Copyright (C):  2001, 2002, 2003, 2004, 2005  Earnie Boyd
 rem   mailto:earnie@users.sf.net
