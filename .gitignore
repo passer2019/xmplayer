@@ -41,3 +41,15 @@ SDL2-2.0.9/VisualC/.vs/SDL/v15/Browse.VC.opendb
 SDL2-2.0.9/VisualC/.vs/SDL/v15/Solution.VC.db
 SDL2-2.0.9/VisualC/.vs/SDL/v15/Solution.VC.db-shm
 SDL2-2.0.9/VisualC/.vs/SDL/v15/Solution.VC.db-wal
+SDL2-2.0.9/VisualC/.vs/SDL/v15/.suo
+SDL2-2.0.9/VisualC/tests/controllermap/axis.bmp
+SDL2-2.0.9/VisualC/tests/controllermap/button.bmp
+SDL2-2.0.9/VisualC/tests/controllermap/controllermap.bmp
+SDL2-2.0.9/VisualC/tests/loopwave/sample.wav
+SDL2-2.0.9/VisualC/tests/testgamecontroller/button.bmp
+SDL2-2.0.9/VisualC/tests/testgamecontroller/controllermap.bmp
+SDL2-2.0.9/VisualC/tests/testrendertarget/icon.bmp
+SDL2-2.0.9/VisualC/tests/testrendertarget/sample.bmp
+SDL2-2.0.9/VisualC/tests/testscale/sample.bmp
+SDL2-2.0.9/VisualC/tests/testsprite2/icon.bmp
+SDL2-2.0.9/VisualC/tests/testyuv/testyuv.bmp
