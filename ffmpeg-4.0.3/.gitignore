@@ -10,3 +10,4 @@ vs2017sample
 *.version
 *.pc
 vs ffmpeg 4.0.3.si4project
+vs2017_ffplay
