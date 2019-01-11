@@ -85,7 +85,8 @@ cd c:/ffmpeg4.0.3
 ```
 - 进入代码目录后，就可以用configure生成所需的头文件和makefile了，这里是编译生成可调试的静态库,就不生成动态库了，也不使用汇编优化了
 ```bash
-$ ./configure --disable-asm --enable-avdevice --enable-doc --disable-programs --enable-avresample  --disable-shared --enable-static --disable-bzlib  --enable-gray --disable-libopenjpeg --disable-iconv --disable-zlib --prefix=./vs2017_build --toolchain=msvc --arch=x86 --extra-cflags="-MDd" --extra-ldflags="/NODEFAULTLIB:libcmt" --enable-debug
+#./configure --disable-asm --enable-avdevice --enable-doc --disable-programs --enable-avresample  --disable-shared --enable-static --disable-bzlib  --enable-gray --disable-libopenjpeg --disable-iconv --disable-zlib --prefix=./vs2017_build --toolchain=msvc --arch=x86 --extra-cflags="-MDd" --extra-ldflags="/NODEFAULTLIB:libcmt" --enable-debug
+$ ./configure --disable-asm --disable-avdevice --disable-doc --disable-ffplay --disable-ffprobe --disable-ffmpeg --disable-shared --enable-static --disable-bzlib --disable-libopenjpeg --disable-iconv --disable-zlib --prefix=./vs2017_build --toolchain=msvc --arch=x86 --extra-cflags="-MDd" --extra-ldflags="/NODEFAULTLIB:libcmt" --enable-debug
 $ make -j4  #我这里是4核的CPU，所以用-j4，如果是双核的则-j2，八核的则-j8
 $ make install
 # 如果要修改配置选项，请用 ./configure --help查找编译选项
