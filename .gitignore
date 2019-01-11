@@ -36,3 +36,8 @@ ffmpeg-4.0.3/libavformat/avformat.lib
 ffmpeg-4.0.3/libavutil/avutil.lib
 ffmpeg-4.0.3/libswresample/swresample.lib
 ffmpeg-4.0.3/libswscale/swscale.lib
+SDL2-2.0.9/VisualC/.vs/SDL/v15/Browse.VC.db
+SDL2-2.0.9/VisualC/.vs/SDL/v15/Browse.VC.opendb
+SDL2-2.0.9/VisualC/.vs/SDL/v15/Solution.VC.db
+SDL2-2.0.9/VisualC/.vs/SDL/v15/Solution.VC.db-shm
+SDL2-2.0.9/VisualC/.vs/SDL/v15/Solution.VC.db-wal
